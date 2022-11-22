@@ -2,12 +2,12 @@ class Calculator {
   #operation = []
   #history = []
 
-  set addOperation(number) {
-    this.#operation.push(number.toString().replace(/ +/g, ''))
-  }
-
   get showHistory() {
     return this.#history
+  }
+
+  set addOperation(number) {
+    this.#operation.push(number.toString().replace(/ +/g, ''))
   }
 
   clearHistory() {
@@ -19,13 +19,11 @@ class Calculator {
       let result = 0
       let logOperation = ''
 
-      for (let i = 0; i < this.#operation.length; i++) {
-        try {
-          result = eval(this.#operation[i])
-          logOperation = this.#operation[i]
-        } catch (e) {
-          return 'NaN'
-        }
+      try {
+        result = eval(this.#operation[0])
+        logOperation = this.#operation[0]
+      } catch (e) {
+        return 'NaN'
       }
 
       this.#operation = []
@@ -38,6 +36,7 @@ class Calculator {
 }
 
 const calculator = new Calculator()
+console.log(calculator.showResult())
 
 calculator.addOperation = '1+20'
 console.log(calculator.showResult())
@@ -45,7 +44,7 @@ console.log(calculator.showResult())
 calculator.addOperation = '5+5'
 console.log(calculator.showResult())
 
-calculator.addOperation = '50+5*2'
+calculator.addOperation = 'a+5*2'
 console.log(calculator.showResult())
 
 console.log(calculator.showHistory)
