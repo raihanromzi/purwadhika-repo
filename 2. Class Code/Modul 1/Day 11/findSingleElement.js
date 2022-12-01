@@ -3,6 +3,7 @@ const findSingleChar = (arr) => {
   for (let i = 0; i < arr.length; i++) {
     if (obj[arr[i]] === undefined) {
       obj[arr[i]] = 1
+      console.log(obj)
     } else {
       if (obj[arr[i]]) {
         delete obj[arr[i]]

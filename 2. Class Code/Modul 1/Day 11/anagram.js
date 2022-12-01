@@ -1,9 +1,8 @@
 const isAnagram = (str1, str2) => {
   const arrStr1 = str1.split('')
   const arrStr2 = str2.split('')
-  const lengthArr = arrStr1.length === arrStr2.length ? arrStr1.length : null
 
-  if (!lengthArr) {
+  if (arrStr1.length !== arrStr2.length) {
     return false
   }
 
