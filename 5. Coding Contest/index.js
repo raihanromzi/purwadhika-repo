@@ -1,5 +1,5 @@
 function beautifulDays(i, j, k) {
-  const counter = 0
+  let counter = 0
   for (let day = i; day <= j; day++) {
     const reverseDay = parseInt(day.toString().split('').reverse().join(''))
     const result = Math.abs(day - reverseDay) / k
@@ -9,8 +9,6 @@ function beautifulDays(i, j, k) {
   }
   return counter
 }
-console.log(beautifulDays(1, 20, 5));
-console.log(beautifulDays(20, 23, 6));
 
 function timeConversion(s) {
   const pmCheck = s.includes('PM')
@@ -26,7 +24,7 @@ function timeConversion(s) {
   } else if (!pmCheck) {
     newTime = hrs + ':' + s.split(':')[1] + ':' + s.split(':')[2].replace('AM', '')
   } else if (pmCheck) {
-    newTime = (hrs + 12) + ':' + s.split(':')[1] + ':' + s.split(':')[2].replace('PM', '')
+    newTime = (parseInt(hrs) + 12) + ':' + s.split(':')[1] + ':' + s.split(':')[2].replace('PM', '')
   }
 
   return newTime
@@ -45,5 +43,4 @@ function catsAndMouse(x, y, z) {
   }
 }
 
-console.log(catsAndMouse(1, 2, 3))
-console.log(catsAndMouse(1, 3, 2))
+console.log(timeConversion('10:00:00PM'));

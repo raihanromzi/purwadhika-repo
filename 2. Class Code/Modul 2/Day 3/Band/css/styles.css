@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+#header-logo {
+    display: inherit;
+    place-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#logo img {
+    display: inherit;
+    max-width: 5em;
+    justify-content: center;
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
+
+#navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: "Dank Mono", sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    max-height: 6em;
+}
+
+#menu-left div {
+    padding: 1.2em 2em;
+}
+
+#menu-left {
+    display: inherit;
+    place-items: center;
+    margin-right: auto;
+}
+
+#menu-left div:hover {
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+
+#menu-right {
+    display: inherit;
+    padding: 1em 2em;
+    place-items: center;
+}
+
+#menu-right:hover {
+    background-color: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+
+#img-heading img {
+    max-height: 50em;
+    width: 100%;
+    object-fit: cover;
+    position: static;
+}
+
+#content {
+    margin: 0 20em;
+    padding: 3em 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Dank Mono", sans-serif;
+}
+
+#heading {
+    font-size: 3em;
+}
+
+#year {
+    font-size: 1em;
+    margin-top: -2em;
+    color: #1a1e21;
+}
+
+#description {
+    text-align: justify;
+}
+
+.band-member {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    font-family: "Dank Mono", sans-serif;
+    justify-content: center;
+    gap: 2em;
+    margin: 4em 0;
+    padding: 2em;
+}
+
+.card {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-name {
+    color: white;
+}
+
+.card-description {
+    color: white;
+
+}
+
+.card-photo {
+    max-height: 25em;
+}
