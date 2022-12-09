@@ -1,0 +1,31 @@
+body {
+    font-family: 'Dank Mono', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.table-student {
+    margin: 2em 0;
+    padding: 2em 0;
+    border: 2px solid;
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-family: "Dank Mono", monospace;
+    font-size: 1em;
+    border-radius: 0.3em;
+    border-color: #fff;
+    border-style: solid;
+
+}
