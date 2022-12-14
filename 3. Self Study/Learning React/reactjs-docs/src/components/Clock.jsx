@@ -19,6 +19,7 @@ export default class Clock extends Component {
     clearInterval(this.timerID)
   }
 
+  // Use Public Class Field Syntax
   tick = () => {
     this.setState({
       date: new Date()

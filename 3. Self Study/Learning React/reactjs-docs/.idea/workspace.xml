@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4713625c-3d71-489c-9b31-25c814616736" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Tania Rascia/Scratch/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tania Rascia/react-tutorial/src/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tania Rascia/react-tutorial/src/Form.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tania Rascia/react-tutorial/src/Table.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tania Rascia/react-tutorial/src/TableBody.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tania Rascia/react-tutorial/src/TableHead.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Counter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Welcome.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/Purwadhika.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/Purwadhika.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Form.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ListNumbers.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Reservation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/Greeting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/GuestGreeting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/LoginButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/LoginControl.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/LogoutButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/login/UserGreeting.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/show-name/NameForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Clock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Clock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "ts.external.directory.path": "/Users/raihanromzi/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/222.4345.14/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -84,7 +87,8 @@
       <workItem from="1670466948409" duration="1105000" />
       <workItem from="1670469661153" duration="93000" />
       <workItem from="1670469974376" duration="691000" />
-      <workItem from="1670471013812" duration="21114000" />
+      <workItem from="1670471013812" duration="21322000" />
+      <workItem from="1670553166292" duration="11474000" />
     </task>
     <servers />
   </component>
